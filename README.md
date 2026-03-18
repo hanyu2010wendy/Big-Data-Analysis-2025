@@ -1,61 +1,69 @@
-# WDI Data Analysis with Python
+# Big Data Analysis Course (English Edition)
 
-English-ready teaching materials for World Development Indicators (WDI) data analysis.
+This repository is a cleaned, reorganized, and English-translated version of the original Big Data Analysis teaching materials.
 
-This repository contains a focused teaching unit on how to clean WDI data, reshape it into panel form, inspect missing values, and explain the workflow in English for GitHub and YouTube.
+## What was changed
 
-## Included materials
+- Remaining Chinese notebooks were translated into English.
+- Lecture materials and assignments were reorganized into separate folders.
+- Missing assignment templates were added where needed.
+- A lightweight WDI teaching subset was created so the repository is easier to host on GitHub.
+- Platform-specific absolute paths were replaced with relative project paths that work after cloning the repository locally or in Colab.
+- A short English variable dictionary and province-name mapping were added for the China-focused datasets.
+- MacOS system files and notebook checkpoints were excluded from the cleaned package.
 
-### Lecture notebook
-- `World Development Indicator(WDI) data analysis/WDI data analysis.ipynb`
+## Repository structure
 
-### Practice notebooks
-- `World Development Indicator(WDI) data analysis/Practice1.ipynb`
-- `World Development Indicator(WDI) data analysis/Practice1_Answer.ipynb`
+- `lectures/`: lecture notebooks
+- `assignments/`: homework notebooks
+- `data/`: teaching datasets and helper files
+- `assets/`: static images used in the notebooks
+- `outputs/`: suggested folder for exported tables and figures
 
-### Video materials
-- `Video scripts/01_WDI_Data_Preprocessing_Script_English.ipynb`
-- `Video scripts/Filming_Guide_English.md`
-- `Video scripts/YouTube_Metadata_Templates.md`
+## Running the notebooks
 
-## What this lesson teaches
+Each notebook includes a small path helper that searches for the project root automatically.
 
-- how to read WDI data in Python;
-- how to filter one country from a large international dataset;
-- how to reshape wide data into panel data;
-- how to export cleaned output files;
-- how to inspect missing values before later analysis.
+### Local Jupyter
+Clone the repository and open the notebooks inside the repository folder.
 
-## Video
+### Google Colab
+Clone the repository first, then open the notebook from the cloned folder.  
+The path helper assumes the `data/` and `assets/` folders are present in the same repository.
 
-Current public video:
+## Data notes
 
-[![WDI lesson thumbnail](https://img.youtube.com/vi/T7N3LGGsqno/0.jpg)](https://www.youtube.com/watch?v=T7N3LGGsqno)
+- `data/wdi/WDI_course_subset.csv` is a GitHub-friendly teaching subset, not the full WDI raw file.
+- If you want to assign arbitrary countries for student homework, replace the subset with the full WDI data or use Git LFS / external storage.
+- `data/china/china_panel_data_dictionary.csv` contains English aliases for the main China panel variables.
+- `data/china/province_name_mapping.csv` maps Chinese province names to English names.
 
-## Running the notebook
+## Modules
 
-### Local
-Open the repository in Jupyter Notebook, JupyterLab, or VS Code.
+### Lectures
+1. WDI data analysis
+2. Chinese data analysis
+3. Data visualization with WDI
+4. Multivariable linear regression
+   - panel-data example
+   - single-country example
+5. Principal component analysis (PCA)
+6. Financial data with AKShare
+7. Geographic mapping with China data
 
-### Colab
-Clone or upload the repository first, then open the notebook.
+### Assignments
+1. Homework 1: blank + solution
+2. Homework 2: blank + solution
+3. Homework 3: blank + solution
+4. Homework 4: blank + solution
+5. Homework 5: blank only
+7. Homework 7: blank only
 
-### Data file
-The WDI CSV file is not committed in this repository because it is large. Before running the notebook, place `WDICSV.csv` here:
+## Missing items from the original package
 
-- `World Development Indicator(WDI) data analysis/Data/WDICSV.csv`
+See `COURSE_AUDIT.md` for a full review, including missing solution notebooks and missing source files referenced by the original materials.
 
-The updated notebooks now look for that repository-relative path.
+## Video tutorials
 
-## Portfolio use
-
-This repository is a compact example of:
-
-- reproducible data cleaning;
-- panel data preparation;
-- English teaching communication;
-- GitHub-based course presentation.
-
-## Next recommended improvement
-
-After uploading an updated English video, add the new YouTube link here and connect it to the matching script notebook.
+Existing public videos: YuHan-19  
+https://www.youtube.com/@YuHan-19

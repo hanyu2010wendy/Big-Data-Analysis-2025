@@ -1,0 +1,18 @@
+original_column_name,english_alias,description
+序号,row_id,Row identifier
+地区,region_cn,Province-level region name in Chinese
+年份,year,Year
+国内生产总值（当年价）（亿元）,gdp_current_100m_cny,"GDP at current prices, 100 million CNY"
+第三产业增加值（亿元）,tertiary_industry_value_added_100m_cny,"Value added of the tertiary industry, 100 million CNY"
+总人口（万人）,population_10k_persons,"Total population, 10,000 persons"
+城镇人口（万人）,urban_population_10k_persons,"Urban population, 10,000 persons"
+城镇就业人员数（万人）,urban_employment_10k_persons,"Urban employment, 10,000 persons"
+货物出口金额（万美元）,goods_exports_10k_usd,"Goods exports, 10,000 USD"
+货物进口金额（万美元）,goods_imports_10k_usd,"Goods imports, 10,000 USD"
+一般预算支出（亿元）,general_budget_expenditure_100m_cny,"General budget expenditure, 100 million CNY"
+互联网宽带接入用户（万户）,broadband_subscribers_10k_households,"Broadband subscribers, 10,000 households"
+有电子商务交易活动企业占总企业数比重（%）,ecommerce_firm_share_pct,"Share of firms engaged in e-commerce transactions, %"
+电子商务销售额（亿元）,ecommerce_sales_100m_cny,"E-commerce sales, 100 million CNY"
+电子商务采购额（亿元）,ecommerce_purchases_100m_cny,"E-commerce purchases, 100 million CNY"
+R&D经费（万元）,rd_expenditure_10k_cny,"R&D expenditure, 10,000 CNY"
+数字普惠金融指数,digital_finance_index,Digital inclusive finance index
