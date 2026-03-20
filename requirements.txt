@@ -10,5 +10,6 @@ openpyxl
 xlrd
 geopandas
 akshare
+yfinance
 ipywidgets
 colorcet

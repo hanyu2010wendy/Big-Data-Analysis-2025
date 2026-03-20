@@ -27,16 +27,17 @@ This matches the teaching logic more clearly than the original mixed structure.
 | *(missing blank notebook)* | `assignments/04_multivariable_linear_regression/Homework4_blank.ipynb` | homework template | created |
 | `05 .../PCA_English.ipynb` | `lectures/05_principal_component_analysis/PCA_with_HDI_and_WDI.ipynb` | lecture | cleaned |
 | `05 .../Homework5_English.ipynb` | `assignments/05_principal_component_analysis/Homework5_blank.ipynb` | homework template | cleaned |
+| *(newly added example solution)* | `assignments/05_principal_component_analysis/Homework5_solution.ipynb` | homework solution | created |
 | `06 Financial data/Financial data_English.ipynb` | `lectures/06_financial_data/Financial_data_with_AKShare.ipynb` | lecture | cleaned and corrected |
+| *(newly added international variant)* | `lectures/06_financial_data/Financial_data_with_Yahoo_Finance.ipynb` | lecture | created |
+| *(newly added finance homework)* | `assignments/06_financial_data/Homework6_blank.ipynb` | homework template | created |
+| *(newly added finance homework)* | `assignments/06_financial_data/Homework6_solution.ipynb` | homework solution | created |
 | `07 Geographic map/地理分布图课件.ipynb` | `lectures/07_geographic_mapping/Geographic_mapping_with_China_data.ipynb` | lecture | translated |
 | `07 Geographic map/课程实践周作业.ipynb` | `assignments/07_geographic_mapping/Homework7_blank.ipynb` | homework template | translated |
 
 ## Missing answers that still require your decision
 
-1. **Homework 5 (PCA report assignment)**  
-   No solution notebook was included in the uploaded package.
-
-2. **Homework 7 (geographic mapping / practice-week assignment)**  
+1. **Homework 7 (geographic mapping / practice-week assignment)**  
    No solution notebook was included in the uploaded package.
 
 ## Missing source files referenced by the original materials
@@ -70,19 +71,22 @@ This matches the teaching logic more clearly than the original mixed structure.
    Several notebooks depended on `SimHei.ttf` and platform-specific Chinese font configuration.  
    The cleaned notebooks reduce or remove that dependency where possible.
 
+6. **AKShare endpoint instability**  
+   The live A-share notebook now uses a more stable AKShare history endpoint and a reproducible watchlist snapshot so the notebook can run end to end more reliably.
+
 ## Content notes you may want to review before publishing
 
-1. **Financial-data module is China-market specific**  
-   This is fine if you want to showcase regional expertise.  
-   If you are targeting international organizations, you may later want to add one more finance notebook based on a more globally familiar data source.
+1. **Finance module now has two tracks**  
+   The AKShare notebook highlights China-market data, while the Yahoo Finance notebook is easier to explain to international audiences.  
+   The tradeoff is that both variants depend on live external data access.
 
 2. **PCA index sign convention**  
    The PCA notebook keeps the original negative sign in the composite index calculation.  
    Because PCA signs are arbitrary, you may want to add one sentence explaining why you keep or reverse the sign.
 
-3. **Assignment coverage is uneven**  
-   Modules 1–4 now have both blank and solution notebooks.  
-   Modules 5 and 7 still need your decision on how much solution guidance you want to publish.
+3. **Assignment coverage is much more complete now**  
+   Modules 1–6 now have both blank and solution notebooks.  
+   Module 7 still needs your decision on how much solution guidance you want to publish.
 
 4. **WDI subset vs. full data**  
    The cleaned repository uses a teaching subset for GitHub convenience.  

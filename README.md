@@ -31,6 +31,9 @@ Clone the repository and open the notebooks inside the repository folder.
 Clone the repository first, then open the notebook from the cloned folder.  
 The path helper assumes the `data/` and `assets/` folders are present in the same repository.
 
+### Live data note
+The finance notebooks use live market-data APIs. For fully reproducible offline teaching, keep exported outputs or prepare a local fallback dataset.
+
 ## Data notes
 
 - `data/wdi/WDI_course_subset.csv` is a GitHub-friendly teaching subset, not the full WDI raw file.
@@ -48,15 +51,20 @@ The path helper assumes the `data/` and `assets/` folders are present in the sam
    - panel-data example
    - single-country example
 5. Principal component analysis (PCA)
-6. Financial data with AKShare
+6. Financial data
+   - AKShare (China-market version)
+   - Yahoo Finance (international / institution-facing version)
 7. Geographic mapping with China data
+
+For international-facing teaching, start with `lectures/06_financial_data/Financial_data_with_Yahoo_Finance.ipynb`.
 
 ### Assignments
 1. Homework 1: blank + solution
 2. Homework 2: blank + solution
 3. Homework 3: blank + solution
 4. Homework 4: blank + solution
-5. Homework 5: blank only
+5. Homework 5: blank + solution
+6. Homework 6: blank + solution (Yahoo Finance / international finance case)
 7. Homework 7: blank only
 
 ## Missing items from the original package
