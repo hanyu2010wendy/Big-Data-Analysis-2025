@@ -246,7 +246,17 @@ In this lesson, we transformed raw WDI data into a clean panel dataset. We read 
 
 The code, data subset and exercises are available in the GitHub repository linked below.
 
-## Description for YouTube
+## Reusable YouTube Metadata
+
+**Short title**
+
+Build a WDI Panel Dataset in Python | Big Data Analysis with Python
+
+**Short description**
+
+Learn how to clean World Bank WDI data, filter countries and indicators, reshape the dataset into panel format, and inspect missing values in Python.
+
+**Long description**
 
 ```text
 In this teaching demo, I show how to build a clean country-year panel dataset from World Bank World Development Indicators (WDI) data using Python and pandas.
@@ -269,11 +279,23 @@ This video is part of an online teaching portfolio demonstrating data-based teac
 #Python #DataAnalysis #WDI #PanelData #Economics #DevelopmentData
 ```
 
+**Additional suggested hashtags**
+
+#Python #DataAnalysis #Economics #WDI #PanelData
+
 ## Portfolio Note
 
 This video can be described in a CV or mini portfolio as:
 
 > Designed and published an English-language Python teaching demo using World Bank WDI data, with GitHub-hosted notebooks, teaching datasets, assignments and reproducible outputs. The lesson demonstrates data cleaning, panel-data preparation, missing-value inspection and applied research workflow design.
+
+## General Filming Structure
+
+1. Hook
+2. Roadmap
+3. Demo
+4. Interpretation
+5. Recap
 
 ## Recording Checklist
 
@@ -289,10 +311,12 @@ Before recording:
 
 During recording:
 
+- Keep sentences short and clear.
 - Explain the purpose before the syntax.
 - Pause after important outputs.
 - Do not over-explain every line of code.
 - Keep returning to the main workflow: raw data to clean panel dataset.
+- End with one sentence on what the viewer has learned.
 
 After recording:
 
