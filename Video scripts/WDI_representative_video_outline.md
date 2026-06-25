@@ -1,13 +1,8 @@
 # WDI Representative Video Outline
 
-## Working Title
+## Video Title
 
 **World Bank WDI Data Analysis with Python: From Raw Data to Panel Dataset**
-
-## Alternative Titles
-
-- Teaching Demo: Cleaning and Reshaping World Development Indicators with Python
-- Build a Research-Ready WDI Panel Dataset with pandas
 
 ## Video Purpose
 
